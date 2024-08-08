@@ -1,0 +1,107 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.6">
+  <diagram name="Halaman-1" id="ygct5KxtPdrvl-caDncq">
+    <mxGraphModel dx="658" dy="408" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="loiaXlv2096ob-jXLiBp-5" value="Flowmap Pemesanan makanan di Mcd" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70.00000000000045" y="50" width="369.99999999999955" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-6" value="Pembeli" style="swimlane;startSize=20;html=1;" vertex="1" parent="loiaXlv2096ob-jXLiBp-5">
+          <mxGeometry y="20" width="129.99999999999955" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="loiaXlv2096ob-jXLiBp-6" source="loiaXlv2096ob-jXLiBp-10" target="loiaXlv2096ob-jXLiBp-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-10" value="Mulai" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="loiaXlv2096ob-jXLiBp-6">
+          <mxGeometry x="35" y="30" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-11" value="Double&lt;div&gt;Burger&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="loiaXlv2096ob-jXLiBp-6">
+          <mxGeometry x="30" y="130" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="loiaXlv2096ob-jXLiBp-6" source="loiaXlv2096ob-jXLiBp-46" target="loiaXlv2096ob-jXLiBp-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-46" value="&lt;font size=&quot;1&quot;&gt;Menerima&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;pesanan&lt;/font&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="loiaXlv2096ob-jXLiBp-6">
+          <mxGeometry x="29.999999999999545" y="430" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-48" value="&lt;font size=&quot;1&quot;&gt;Selesai&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;menyantap&lt;/font&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="loiaXlv2096ob-jXLiBp-6">
+          <mxGeometry x="29.999999999999545" y="515" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="loiaXlv2096ob-jXLiBp-6" source="loiaXlv2096ob-jXLiBp-54" target="loiaXlv2096ob-jXLiBp-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-54" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Membayar&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;tagihan&lt;/span&gt;&lt;/div&gt;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;" vertex="1" parent="loiaXlv2096ob-jXLiBp-6">
+          <mxGeometry x="11.87999999999954" y="590" width="106.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-56" value="selesai" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="loiaXlv2096ob-jXLiBp-6">
+          <mxGeometry x="40" y="670" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-7" value="Kasir" style="swimlane;startSize=20;html=1;" vertex="1" parent="loiaXlv2096ob-jXLiBp-5">
+          <mxGeometry x="129.99999999999955" y="20" width="120" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-16" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Pesanan&lt;/font&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Double&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Burger&lt;/font&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="loiaXlv2096ob-jXLiBp-7">
+          <mxGeometry x="25.01" y="270" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="loiaXlv2096ob-jXLiBp-7" source="loiaXlv2096ob-jXLiBp-24" target="loiaXlv2096ob-jXLiBp-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-24" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Mencatat&lt;/font&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Pesanan&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Double&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Burger&lt;/font&gt;&lt;/div&gt;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;" vertex="1" parent="loiaXlv2096ob-jXLiBp-7">
+          <mxGeometry x="6.87" y="180" width="106.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-39" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Mengantarkan&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;makanan&lt;/span&gt;&lt;/div&gt;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;" vertex="1" parent="loiaXlv2096ob-jXLiBp-7">
+          <mxGeometry x="6.87" y="430" width="106.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="loiaXlv2096ob-jXLiBp-7" source="loiaXlv2096ob-jXLiBp-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60.028571428571354" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-50" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Membayar&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;pesanan&lt;/span&gt;&lt;/div&gt;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;" vertex="1" parent="loiaXlv2096ob-jXLiBp-7">
+          <mxGeometry x="6.870000000000001" y="515" width="106.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-61" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Memberikan&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;tagihan&lt;/span&gt;&lt;/div&gt;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;" vertex="1" parent="loiaXlv2096ob-jXLiBp-7">
+          <mxGeometry x="6.8799999999999955" y="590" width="106.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-8" value="Koki" style="swimlane;startSize=20;html=1;" vertex="1" parent="loiaXlv2096ob-jXLiBp-5">
+          <mxGeometry x="249.99999999999955" y="20" width="120" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="loiaXlv2096ob-jXLiBp-8" source="loiaXlv2096ob-jXLiBp-33" target="loiaXlv2096ob-jXLiBp-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-33" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Pesanan&lt;/font&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Double burger&lt;/font&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="loiaXlv2096ob-jXLiBp-8">
+          <mxGeometry x="25" y="270" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="loiaXlv2096ob-jXLiBp-8" source="loiaXlv2096ob-jXLiBp-35" target="loiaXlv2096ob-jXLiBp-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-35" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Memasak&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;pesanan&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;double burger&lt;/span&gt;&lt;/div&gt;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;" vertex="1" parent="loiaXlv2096ob-jXLiBp-8">
+          <mxGeometry x="5.86999999999999" y="360" width="106.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-37" value="&lt;font size=&quot;1&quot;&gt;Double burger&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="loiaXlv2096ob-jXLiBp-8">
+          <mxGeometry x="25" y="430" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.123;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="loiaXlv2096ob-jXLiBp-5" source="loiaXlv2096ob-jXLiBp-11" target="loiaXlv2096ob-jXLiBp-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="loiaXlv2096ob-jXLiBp-5" source="loiaXlv2096ob-jXLiBp-16" target="loiaXlv2096ob-jXLiBp-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="loiaXlv2096ob-jXLiBp-5" source="loiaXlv2096ob-jXLiBp-37" target="loiaXlv2096ob-jXLiBp-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="loiaXlv2096ob-jXLiBp-5" source="loiaXlv2096ob-jXLiBp-39" target="loiaXlv2096ob-jXLiBp-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.071;entryY=0.515;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="loiaXlv2096ob-jXLiBp-5" source="loiaXlv2096ob-jXLiBp-48" target="loiaXlv2096ob-jXLiBp-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="loiaXlv2096ob-jXLiBp-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="loiaXlv2096ob-jXLiBp-5" target="loiaXlv2096ob-jXLiBp-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="149.99999999999955" y="630" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
